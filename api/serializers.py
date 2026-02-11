@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from mtgdb.models import Card, CardSet, CardPrinting
+from api.models import Card, CardSet, CardPrinting
 
 class CardSetSerializer(serializers.ModelSerializer):
     

@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from mtgdb.models import Card, CardSet, CardPrinting
-from mtgdb.serializers import CardSerializer, CardSetSerializer, CardPrintingSerializer
+from api.models import Card, CardSet, CardPrinting
+from api.serializers import CardSerializer, CardSetSerializer, CardPrintingSerializer
 
 
 class CardSetViewSet(viewsets.ModelViewSet):
